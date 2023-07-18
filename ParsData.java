@@ -1,5 +1,3 @@
-package javaErrorException.HomeWork;
-
 import java.util.HashMap;
 
 public class ParsData {
