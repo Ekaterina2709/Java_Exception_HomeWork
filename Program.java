@@ -1,6 +1,3 @@
-package javaErrorException.HomeWork;
-
-import java.io.IOException;
 import java.util.HashMap;
 // Происходит запуск приложения
 public class Program {
