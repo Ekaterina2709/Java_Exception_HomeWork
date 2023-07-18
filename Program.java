@@ -15,7 +15,7 @@ public class Program {
             }
         } // Цикл для ввода данных, пока пользователь не введет корректные данные
 
-        newFileName = data.get("Имя файла") + ".txt"; // Указывается файл для записи данных пользователя
+        newFileName = data.get("Фамилия") + ".txt"; // Указывается файл для записи данных пользователя
         StringBuilder sb = new StringBuilder();
         for (String str : data.keySet()) {
             sb.append(data.get(str));
