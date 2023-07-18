@@ -1,11 +1,10 @@
-package javaErrorException.HomeWork;
 import java.util.Scanner;
 
 public class InputData {
     public String[] enterData() {
         Scanner iScanner = new Scanner(System.in);
         while (true){
-            System.out.println("Введите строку через ПРОБЕЛ (строка должна содержать Ф.И.О, дату рождения - dd.mm.yyyy, номер телефона - цифры, пол - f/m ) : ");
+            System.out.println("Введите строку через ПРОБЕЛ латиницей (строка должна содержать Фамилия Имя Отчество, дату рождения - dd.mm.yyyy, номер телефона - цифры, пол - f/m ): ");
             String data = iScanner.nextLine();
             String[] arrayData = data.split(" ");
             if (arrayData.length == 6) {
