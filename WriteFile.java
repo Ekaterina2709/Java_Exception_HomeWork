@@ -1,6 +1,3 @@
-package javaErrorException.HomeWork;
-
-
 import java.io.FileWriter;
 import java.io.IOException;
 
